@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    background:#30336b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:#fff;
+}
+.heading h1{
+    margin-bottom: 20px;
+}
+button{
+    display: inline-block;
+    background:#f8b627;
+    color:#f4f4f4;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    border-radius: 3px;
+    transition: 400ms;
+    text-decoration: none;
+    padding: 10px;
+    z-index: 100000;
+}
+img{
+    width: 100px;
+    margin: 20px;
+
+}
